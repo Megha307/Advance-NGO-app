@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontaltablayout"
+        android:background="@color/maincolor">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+                android:layout_alignParentEnd="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/mainlogo"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/horizontaltablayout"/>
+
+
+    <com.smarteist.autoimageslider.SliderLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:id="@+id/imageSlider"
+        android:layout_below="@id/horizontaltablayout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageSlider"
+        android:layout_weight="1"
+        android:text="GODSEND SOCIETY TRUST (Regd.)"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_weight="0.5"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Every Child is Special"/>
+    <TextView
+        android:layout_weight="0.5"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hands For Orphan Welfare"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="  LETS EXPLORE  "
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:id="@+id/explore"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+    <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_margin="4dp"
+        android:background="@color/maincolor"
+       android:layout_weight="1"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:text="@string/Horizonataltext" />
+
+
+
+</LinearLayout>
+

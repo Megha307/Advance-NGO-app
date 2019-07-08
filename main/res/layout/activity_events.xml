@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/children"
+        android:scaleType="fitXY"
+        android:alpha="0.4"/>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontaltablayout"
+        android:background="@color/maincolor">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EVENTS"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+
+                android:layout_alignParentEnd="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/mainlogo"
+
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/horizontaltablayout"/>
+
+    <ListView
+        android:layout_margin="10dp"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/horizontaltablayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"/>
+
+</RelativeLayout>

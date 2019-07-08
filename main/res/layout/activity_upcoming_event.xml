@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpcomingEvent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upcomingtoolbar"
+        android:background="@color/maincolor">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPCOMING EVENTS"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+
+                android:layout_alignParentEnd="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/mainlogo"
+
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_below="@id/upcomingtoolbar"
+        android:id="@+id/upcomingimageview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/poster"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:text="@string/upcomingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/upcomingimageview"
+        android:id="@+id/tvupcomingevent"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

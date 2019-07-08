@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/maincolor"
+        android:id="@+id/menutoolbar"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MENU"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+
+                android:layout_alignParentEnd="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/mainlogo"
+
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_below="@id/menutoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/menuactivity"
+        android:scaleType="fitXY"
+        android:alpha="0.4"
+        />
+<ScrollView
+    android:layout_below="@id/menutoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/objectivecard"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            app:cardCornerRadius="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/objectiveimage"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OBJECTIVE"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:textColor="@android:color/black"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/membercard"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+android:id="@+id/memberimage"
+                       android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_launcher"
+                       android:layout_margin="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MEMBERS"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:id="@+id/eventcard"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/eventimg"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EVENTS"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/contactcard"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                       android:id="@+id/contactimg"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CONTACT US"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:id="@+id/upcomingcard"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/upcomingimg"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="UPCOMING EVENTS"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="18dp"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/videocard"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/videoimg"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_margin="5dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/videos"
+                        android:textSize="20dp"
+                        android:layout_marginStart="18dp"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_develop"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed and maintain by Megha Gupta\nGithub: https://github.com/Megha307"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

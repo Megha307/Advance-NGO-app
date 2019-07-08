@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">G.S Trust</string>
+
+    <string name="members">
+       <u> <b>Board of Patrons</b></u>\n
+Mahesh Chandra Sharma ( Ex –Mayor ( MCD))\n
+Aazad Singh (Ex –Mayor (MCD))\n
+Gulab Singh Rahore\n
+ (Councilor (MCD-North Delhi, Chairman-Health Comittee)\n
+    </string>
+    <string name="advisorname">
+        <u> <b>Board of Advisors</b></u>\n
+T.C. Nakh ( Ex –Comissioner/Megistrate)\n
+R.K.S. Gaur (Addl. Director of Education( Retired))\n
+Dr. Niranjan Bhattacharya ( Associate Professor and HOD ( BPIT))\n
+                            Pankaj Lather ( Assistant Professor ( Govt. College-GGSIPU))\n
+Susmita Bhiswas ( Assistant Professor ( Govt. College-GGSIPU))\n
+Shashi Bhaduria ( Teacher-MCD )\n
+    </string>
+    <string name="executive">
+        <u><b>Executive  Team:</b></u>\n
+Kavita Pandey ( Principal –Private School)\n
+Sitika ( Assistant Professor-LLDIMS ( GGSIPU))\n
+Vivek ( Assistant Professor- Singhania University)\n
+
+    </string>
+    <string name="TRUSTEES">
+        <u><b>     TRUSTEES\n
+                                              OF \n
+                           GODSENT SOCIETY TRUST\n
+</b></u>
+          Mr.  Shailendra Singh Gaur (Founder)\n
+                Shri. R.K.S. Gaur ( Trustee )\n
+                Ms. Kavita Pandey ( Trustee )\n
+
+
+    </string>
+    <string name="conatct">
+    <u><b>Head Office:</b></u>\n
+    A-254, Street No.05, Tomar Col,Burari,Delhi-110084\n
+    <u><b>Correspondence Address:</b></u>\n
+    H.No. 698,Sector-22,NIT Faridabad, Haryana-121005
+</string>
+    <string name="Horizonataltext">GODSEND SOCIETY TRUST PRESENTS G.S. CHAMP- 2019 for a cause of “Say No to Drugs”
+</string>
+    <string name="video">VIDEO</string>
+    <string name="videos">VIDEOS</string>
+
+    <string name="upcomingtext">GODSEND SOCIETY TRUST PRESENTS G.S. CHAMP- 2019 for a cause of Say No to Drugs \n on AUGUST 2019</string>
+</resources>

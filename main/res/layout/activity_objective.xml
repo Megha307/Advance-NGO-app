@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObjectiveActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="fitXY"
+        android:alpha="0.3"/>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/objectivescroll"
+        android:background="@color/maincolor">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OBJECTIVE"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="25dp"/>
+            <ImageView
+
+                android:layout_alignParentEnd="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/mainlogo"
+
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/objectivescroll">-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/tablayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/home"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="HOME"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:color/transparent"/>-->
+            <!--<Button-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/objective"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="OBJECTIVE"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:color/transparent"/>-->
+            <!--<Button-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/members"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="MEMBERS"-->
+                <!--android:background="@android:color/transparent"/>-->
+            <!--<Button-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/events"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="EVENTS"-->
+                <!--android:background="@android:color/transparent"/>-->
+            <!--<Button-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="15dp"-->
+                <!--android:id="@+id/contact"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="CONTACT US"-->
+                <!--android:background="@android:color/transparent"/>-->
+        <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/objectivescroll"/>
+
+   <!--<android.support.v7.widget.CardView-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_margin="10dp"-->
+       <!--app:cardCornerRadius="5dp"-->
+       <!--android:layout_centerInParent="true">-->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_centerInParent="true">
+       <TextView
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textStyle="italic"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="1.Educational assistance to deserving students from economically weaker section."
+           android:textSize="23dp"
+
+           />
+       <TextView
+           android:textSize="23dp"
+           android:padding="10dp"
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textStyle="italic"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="2.Residential and half way homes for the orphans."/>
+
+       <TextView
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textStyle="italic"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="3.Rehabilitation centres for street children."
+           android:textSize="23dp"
+
+           />
+       <TextView
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textStyle="italic"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="4.Self employment programmes for needy children."
+           android:textSize="23dp"
+
+           />
+       <TextView
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textStyle="italic"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="5.Growth of GODSEND SOCIETY TRUST (Regd.)"
+           android:textSize="23dp"
+
+           />
+       </LinearLayout>
+   <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>
